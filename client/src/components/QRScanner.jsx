@@ -31,9 +31,9 @@ const QRScanner = ({ onScan }) => {
 
       {/* Scanner Overlay */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="border-4 border-blue-500 w-52 h-52 relative">
+        <div className="border-4 border-blue-500 w-60 h-60 relative">
           {/* Top Left Corner */}
-          <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4 rounded-sm border-white"></div>
+          <div className="absolute top-0 left-0 w-6 h-6 border-t-4 border-l-4  border-white"></div>
           {/* Top Right Corner */}
           <div className="absolute top-0 right-0 w-6 h-6 border-t-4 border-r-4 border-white"></div>
           {/* Bottom Left Corner */}
