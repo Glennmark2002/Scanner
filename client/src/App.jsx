@@ -5,10 +5,13 @@ const App = () => {
   const [scannedData, setScannedData] = useState(null);
 
   return (
-    <div>
-      <h1>QR Code Scanner</h1>
-      <QRScanner onScan={(data) => setScannedData(data)} />
-      {scannedData && <p>Scanned Data: {scannedData}</p>}
+    <div className="h-screen flex justify-center items-center">
+      <div className="flex-col justify-center items-center">
+        <QRScanner onScan={(data) => setScannedData(data)} />
+          
+        {scannedData && <p>Scanned Data: {scannedData}</p>}
+
+      </div>
     </div>
   );
 };
