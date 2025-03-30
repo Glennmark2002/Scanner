@@ -24,7 +24,7 @@ const QRScanner = ({ onScan }) => {
     };
   }, [onScan]);
 
-  return <video ref={videoRef} style={{ width: "100%", height: "auto" }} />;
+  return <video ref={videoRef} style={{ width: "100%", height: "300" }} />;
 };
 
 export default QRScanner;
